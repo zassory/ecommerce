@@ -1,4 +1,9 @@
 h1 {
-    font-size: 20px;
-    color: red;
+    color: #000;
+}
+h1 span {
+    color: #037bc0;
+}
+span {
+    color: green;
 }
