@@ -1,18 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 .nombre-sitio span {
     color: #037bc0;
 }
 
-#prueba {
-    color:red;
-    color:green;
-    color:calc(#F0F9AF/0);
-    color:purple;
+/** Box Model **/
+.sobre-nosotros {
+    background-color: red;
+    width: 200px;    
+    padding: 25px;    
 }
-
-.navegacion {
-    background-color: #e1e1e1;
-}
-.navegacion a {
-    text-transform: uppercase;
+.sobre-empresa {
+    background-color: blue;
+    width: 500px;
+    padding: 100px;    
 }
