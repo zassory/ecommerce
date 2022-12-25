@@ -24,3 +24,12 @@ html {
     width: 500px;
     padding: 100px;    
 }
+
+/*** Display inline y block **/
+
+p {
+    background-color: red;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
