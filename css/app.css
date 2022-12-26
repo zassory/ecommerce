@@ -4,32 +4,37 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+/** Globales **/
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/** Header y Navegacion **/
 .nombre-sitio {
     margin-top: 50px;
     margin-bottom: 50px;
+    text-align: center;
 }
 .nombre-sitio span {
     color: #037bc0;
 }
-
-/** Box Model **/
-.sobre-nosotros {
-    background-color: red;
-    width: 200px;    
-    padding: 25px;    
+.contenedor-navegacion {
+    border-top: 1px solid #e1e1e1;
 }
-.sobre-empresa {
-    background-color: blue;
-    width: 500px;
-    padding: 100px;    
+.nav-principal {    
+    padding: 20px 0;
 }
 
-/*** Display inline y block **/
-
-p {
-    background-color: red;
-    width: 200px;
-    height: 100px;
-    display: inline-block;
+.hero {
+    background-image: url('../img/principal.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
 }
