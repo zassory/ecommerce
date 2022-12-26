@@ -30,6 +30,9 @@ a {
 }
 .nav-principal {    
     padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .hero {
