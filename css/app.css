@@ -18,6 +18,7 @@ a {
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 /** Header y Navegacion **/
@@ -47,6 +48,21 @@ img {
 }
 
 /** Categorias **/
+.categorias h2 {
+    text-align: center;
+}
+.categoria a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.categoria a:hover {
+    background-color: #037bc0;
+    color: #FFFFFF;
+    /* border-top-left-radius: 40px; */
+    border-bottom-right-radius: 10px;
+}
 .listado-categorias {
     display: grid;    
     grid-template-columns: repeat(3,1fr);
