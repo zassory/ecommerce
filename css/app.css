@@ -93,3 +93,14 @@ img {
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
 }
+/** Bloque Nosotros */
+.sobre-nosotros {    
+    background-image: linear-gradient(to right, transparent 50%, #037BC0 50%, #037BC0 100%),url(../img/nosotros.jpg);
+    background-position: left center;
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+}
+.sobre-nosotros h2 {    
+    
+}
