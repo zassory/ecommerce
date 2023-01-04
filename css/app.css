@@ -43,6 +43,19 @@ img {
     display: block;
 }
 
+.btn {
+    background-color: #8cbc00;
+    display: block;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out;
+}
+.btn:hover {
+    background-color: #769c02;
+}
+
 /** Utilidades */
 .text-center {
     text-align: center;
@@ -136,6 +149,7 @@ img {
 .texto-producto {
     text-align: center;
     color: #FFF;
+    padding: 2rem;
 }
 .texto-producto h3 {
     margin: 0;
@@ -146,7 +160,4 @@ img {
 .texto-producto .precio {
     font-size: 2.8rem;
     font-weight: 900;
-}
-.texto-producto a {
-
 }
