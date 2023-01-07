@@ -183,6 +183,13 @@ img {
     grid-column-start: 1;
     grid-column-end: 3;
 }
+.producto:nth-child(4) img,
+.producto:nth-child(5) img,
+.producto:nth-child(6) img {
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+}
 .producto:nth-child(5) {
     grid-column-start: 3;
     grid-column-end: 5;
