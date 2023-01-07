@@ -154,6 +154,13 @@ img {
     /**grid-column: 1 / 7;**/
     grid-column-start: 1;
     grid-column-end: 7;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.producto:nth-child(1) img {
+    height: 48rem;
+    width: 100%;
+    object-fit: cover;
 }
 .producto:nth-child(2) {
     /**grid-column: 1 / 4*/
