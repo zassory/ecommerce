@@ -167,6 +167,12 @@ img {
     grid-column-start: 1;
     grid-column-end: 4;
 }
+.producto:nth-child(2) img,
+.producto:nth-child(3) img {
+    height: 30rem;
+    width:100%;
+    object-fit: cover;
+}
 .producto:nth-child(3) {
     /**grid-column: 4 / 7 */
     grid-column-start: 4;
