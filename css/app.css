@@ -223,6 +223,9 @@ img {
     margin-top: 5rem;
     padding-top: 5rem;
 }
+.site-footer h3 {
+    margin-bottom: .5rem;
+}
 .grid-footer {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -234,3 +237,10 @@ img {
 .grid-footer div {
     flex: 1;
 } */
+.footer-menu a {
+    display: block;
+}
+.copyright {
+    margin-top: 5rem;
+    text-align: center;
+}
