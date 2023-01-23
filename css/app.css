@@ -105,7 +105,7 @@ img {
     border-bottom-right-radius: 1rem;
 }
 .listado-categorias {
-    display: grid;    
+    display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem;
 }
@@ -223,3 +223,14 @@ img {
     margin-top: 5rem;
     padding-top: 5rem;
 }
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+}
+/* .grid-footer {
+    display: flex;
+}
+.grid-footer div {
+    flex: 1;
+} */
