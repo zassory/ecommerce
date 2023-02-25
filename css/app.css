@@ -287,3 +287,7 @@ img {
 .entrada-meta span {
     color: #097bc0;
 }
+.contenido-entrada-blog {
+    width: 60rem;
+    margin: 0 auto;
+}
